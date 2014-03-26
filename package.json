@@ -1,6 +1,11 @@
 {
   "name": "enabd",
   "description": "enabd.com web application",
+  "author": {
+    "name": "Bane Debeljevic",
+    "email": "enab.dev@gmail.com",
+    "url": "http://enabd.com/"
+  },
   "version": "0.0.0",
   "dependencies": {},
   "devDependencies": {
