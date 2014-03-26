@@ -375,8 +375,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('test', [
     'clean:server',
-    'compass',
-    //'concurrent:test',
+    'concurrent:test',
     'autoprefixer',
     'connect:test',
     'karma'

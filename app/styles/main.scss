@@ -1,8 +1,8 @@
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
-@import "bootswatch-scss/readable/_variables";
+@import "bootswatch-scss/readable/variables";
 @import "sass-bootstrap/lib/bootstrap";
-@import "bootswatch-scss/readable/_bootswatch";
+@import "bootswatch-scss/readable/bootswatch";
 
 .browsehappy {
     margin: 0.2em 0;
