@@ -1,6 +1,8 @@
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
-@import 'sass-bootstrap/lib/bootstrap';
+@import "bootswatch-scss/readable/variables";
+@import "sass-bootstrap/lib/bootstrap";
+@import "bootswatch-scss/readable/bootswatch";
 
 .browsehappy {
     margin: 0.2em 0;
@@ -16,6 +18,7 @@ body {
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
+
 .header,
 .marketing,
 .footer {
@@ -72,7 +75,6 @@ body {
     .container {
         max-width: 730px;
     }
-
     /* Remove the padding we set earlier */
     .header,
     .marketing,
