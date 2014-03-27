@@ -13,6 +13,16 @@ angular.module('enabdApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      // route for the services page
+      .when('/services', {
+        templateUrl : 'views/services.html',
+        controller  : 'ServicesCtrl'
+      })
+      // route for the blog page
+      .when('/blog', {
+        templateUrl : 'views/blog.html',
+        controller  : 'BlogCtrl'
+      })
       // route for the about page
       .when('/about', {
         templateUrl : 'views/about.html',
