@@ -39,12 +39,11 @@ module.exports = function(config) {
 
     // register the required plugins
     plugins: [
-    'karma-chrome-launcher',
-    'karma-firefox-launcher',
-    'karma-phantomjs-launcher',
-    'karma-jasmine'
+      'karma-chrome-launcher',
+      'karma-firefox-launcher',
+      'karma-phantomjs-launcher',
+      'karma-jasmine'
     ],
-
 
     // Start these browsers, currently available:
     // - Chrome
@@ -54,7 +53,7 @@ module.exports = function(config) {
     // - Safari (only Mac)
     // - PhantomJS
     // - IE (only Windows)
-    browsers: ['PhantomJS'],
+    browsers: ['PhantomJS', 'Firefox'],
 
 
     // Continuous Integration mode
