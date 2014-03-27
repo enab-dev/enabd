@@ -7,4 +7,6 @@ angular.module('enabdApp')
       'AngularJS',
       'Karma'
     ];
+
+    $scope.homeActive = 'active';
   });

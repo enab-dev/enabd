@@ -1,8 +1,10 @@
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+$fa-font-path: "/bower_components/font-awesome/fonts";
 
 @import "bootswatch-scss/readable/variables";
 @import "sass-bootstrap/lib/bootstrap";
 @import "bootswatch-scss/readable/bootswatch";
+@import "font-awesome/scss/font-awesome";
 
 .browsehappy {
     margin: 0.2em 0;
@@ -29,6 +31,7 @@ body {
 /* Custom page header */
 .header {
     border-bottom: 1px solid #e5e5e5;
+    height: 46px;
 }
 
 /* Make the masthead heading the same height as the navigation */
