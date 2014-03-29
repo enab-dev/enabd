@@ -1,0 +1,6 @@
+<div style="border-bottom: 1px solid #e5e5e5; margin-bottom: 20px;">
+  <h6>{{ post.date | formatdate }} on {{ post.tags | tagsplit }}</h6>
+  <h4><a href="{{ post.permalink }}">{{ post.title }}</a></h4>
+  <p>{{ post.body }}</p>
+  <h6>{{ post.author }}</h6>
+</div>
